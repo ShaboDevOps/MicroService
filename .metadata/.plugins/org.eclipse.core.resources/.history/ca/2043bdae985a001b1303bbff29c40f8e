@@ -1,0 +1,17 @@
+package com.kayaTech.Controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class ConnectorController {
+
+	@GetMapping("/user/{id}")
+	public User getUser(@PathVariable String id) {
+		
+		RestTemplate restTemplet = new RestTemplate();
+		return restTemplet.getForObject("http://localhost:2020/users", User.class);
+	}
+}

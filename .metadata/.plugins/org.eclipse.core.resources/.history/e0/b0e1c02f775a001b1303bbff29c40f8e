@@ -1,0 +1,27 @@
+package com.kayaTech.Services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.kayaTech.Model.UserGrade;
+import com.kayaTech.Repostory.GradeINF;
+
+public class GradeService {
+	
+	@Autowired
+	private GradeINF gradeINF;
+
+	public Optional<UserGrade> fetchUser(String id) {
+		
+		return gradeINF.findById(id);
+	}
+
+	public long addGrades(UserGrade userGrade) {
+		gradeINF.save(userGrade);
+		return gradeINF.count();
+	}
+	
+	
+
+}

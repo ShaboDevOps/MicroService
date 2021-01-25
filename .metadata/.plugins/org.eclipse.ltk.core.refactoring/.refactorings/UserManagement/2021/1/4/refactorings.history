@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;User.java&apos; to &apos;ConnectorService/src/main/java/com.kayaTech.Controllers&apos;&#x0A;- Original project: &apos;UserManagement&apos;&#x0A;- Destination element: &apos;ConnectorService/src/main/java/com.kayaTech.Controllers&apos;&#x0A;- Original element: &apos;com.kayaTech.Models.User.java&apos;" description="Copy compilation unit" destination="=ConnectorService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kayaTech.Controllers" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kayaTech.Models{User.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1611089385776" units="1" version="1.0"/>
+</session>

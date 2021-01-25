@@ -1,0 +1,9 @@
+
+spring.application.name=forexService
+server.port=8000
+spring.datasource.continue-on-error=true
+
+spring.jpa.show-sql=true
+spring.datasource.url=jdbc:h2:~/test
+spring.data.jpa.repositories.bootstrap-mode=default
+spring.h2.console.enabled=true

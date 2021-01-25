@@ -1,0 +1,12 @@
+package com.kayaTech.Services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.kayaTech.Repostory.GradeINF;
+
+public class GradeService {
+	
+	@Autowired
+	private GradeINF gradeINF;
+
+}

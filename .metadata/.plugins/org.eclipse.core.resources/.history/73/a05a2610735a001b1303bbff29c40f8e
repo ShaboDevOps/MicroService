@@ -1,0 +1,5 @@
+package com.kayaTech.Model;
+
+public class Grade {
+
+}
