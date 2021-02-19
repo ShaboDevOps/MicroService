@@ -1,9 +1,0 @@
-package com.kayaTech.Repostory;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.kayaTech.Model.USerGrade;
-
-public interface GradeINF extends JpaRepository<USerGrade, String>{
-
-}

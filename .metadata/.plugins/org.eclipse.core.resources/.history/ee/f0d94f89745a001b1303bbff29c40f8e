@@ -1,5 +1,0 @@
-package com.kayaTech.Repostory;
-
-public interface GradeINF {
-
-}
